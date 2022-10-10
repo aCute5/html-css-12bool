@@ -14,12 +14,23 @@
     flex-wrap: wrap;
     height: 60px;
 }
-.row-g1{
+.row-justify-content-start{
     display: flex;
-    background-color: salmon;
     flex-wrap: wrap;
-    height: 60px;
-}  
+    justify-content: flex-start;
+}
+.row-justify-content-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row-justify-content-end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+      
+}      
+  
 
 [class*=col]{
     flex: 1 0 auto;
