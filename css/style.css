@@ -16,3 +16,6 @@
     text-align: center;
     border: 1px solid white;
 }
+h1,h2{
+    padding: 1rem;
+}

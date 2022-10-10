@@ -6,13 +6,13 @@
 .container{
     max-width: 1400px;
     margin: 0 auto;
-    height: 8000px;
+    
 }
 .row{
     display: flex;
     background-color: rgb(255, 255, 255);
     flex-wrap: wrap;
-    height: 60px;
+    
 }
 .row-justify-content-start{
     display: flex;
@@ -28,9 +28,36 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-      
-}      
-  
+}
+.row-justify-content-space-around{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row-justify-content-space-between{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row-align-items-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.row-align-items-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row-align-items-end{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}          
+h1{
+    padding: .5rem;
+}    
+
 
 [class*=col]{
     flex: 1 0 auto;
@@ -137,9 +164,10 @@
 #nested{
     background-color: rgb(0,225,101);
     border: 1px solid rgb(0, 108, 250);
-    
+    font-size: smaller;
+}    
 
-}
+
 
    
 
